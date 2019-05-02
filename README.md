@@ -18,16 +18,16 @@ that could be captured by a phone camera or so for using in various apps that su
 - Pypng	For generating png images. (required by Pyqcode)
 
 # Used Tools:
- - wxFormBuilder
- - A tools to build GUI forms visually based on wxPython library.
+ - wxFormBuilder: A tool to build GUI forms visually based on wxPython library.
 
 # How to run the project on Windows:
 
- - make sure you have Python 3 installed;
- - unzip the project to your desired location;
- - navigate in cmd to the location;
- - make sure your system satisfies all the requirements: pip install -r requirements.txt
- - launch: python Main.pyw or python -3 Main.pyw
+ - Make sure you have Python 3 installed;
+ - Unzip the project to your desired location;
+ - Navigate in Windows Explorer or cmd to the location;
+ - Launch: python Main.pyw or python -3 Main.pyw
+ - Don't worry about installing required packages,  
+   the program designed to take care of that at the first run (Check py/InstallPkg.py if interested to know how)
 
 # How to run the project on Linux:
  - to be documented;
@@ -38,18 +38,6 @@ that could be captured by a phone camera or so for using in various apps that su
 # Features which can be added:
 
  - "save as..." button to be able to save the QR Code under different formats: Vector and Bitmap Image File Formats;
-
- - allow the QR Code resolution to be adjustable. Ex: 600 x 600, 800 x 800, 1024 x 1024, etc;
-
- - allow the background color for the QR code to be adjustable. Ex: On click pick a random gray/(other random color);
-
- - allow the foreground color for the QR code to be adjustable. Ex: On click pick a random color but not the same as background;
-
- - add single color, color gradient and/or custom eye color options;
-
- - add body Shape, eye frame shape, eye ball shape options or templates;
-
- - add "insert custom logo" option; make available by default some most used logos: GitHub, FB, Twitter, YouTube, Insta, etc.
 
  - "share" button for sharing on social media;
 
