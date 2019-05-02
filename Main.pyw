@@ -4,7 +4,7 @@ This is the main file in the program that runs it.
 """
 import os
 
-# Check if "py/InstallPkg.py" file exists, so we know this the first run of the program.
+# Check if "py/InstallPkg.py" file exists, so we know this is the first run of the program.
 # And we have to install Python packages.
 if os.path.exists("py/InstallPkg.py"):
 	# Run the file by OS system shell command.
