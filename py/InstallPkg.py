@@ -1,7 +1,7 @@
 """
 InstallPkg.py
-This file is used once by the program at the first time to check and install
-Python pacjages required by the program.
+This file is used once by the program at the first run to check and install
+Python packages required by the program.
 """
 import os
 
