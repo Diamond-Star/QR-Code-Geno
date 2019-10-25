@@ -24,7 +24,7 @@ class MainFrame ( wx.Frame ):
 		
 		gSizer2 = wx.GridSizer( 5, 0, 0, 0 )
 		
-		self.lb1 = wx.StaticText( self, wx.ID_ANY, u"Welcome to QR Code Geno\nIt enables you to encode a text tnto a QR Code\n\nEnter a text to encode.\n(Max lenght is 200 characters)", wx.DefaultPosition, wx.Size( -1,-1 ), wx.ALIGN_CENTRE )
+		self.lb1 = wx.StaticText( self, wx.ID_ANY, u"Welcome to QR Code Geno\nIt enables you to encode a text tnto a QR Code\n\nEnter a text to encode.\n(Max length is 200 characters)", wx.DefaultPosition, wx.Size( -1,-1 ), wx.ALIGN_CENTRE )
 		self.lb1.Wrap( -1 )
 		self.lb1.SetFont( wx.Font( 11, 74, 90, 90, False, "Arial" ) )
 		
